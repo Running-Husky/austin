@@ -1,3 +1,7 @@
+
+
+
+
 # 使用openjdk8的镜像
 FROM openjdk:8-jre
 
@@ -11,3 +15,65 @@ ADD ./austin-web/target/austin-web-0.0.1-SNAPSHOT.jar ./austin.jar
 
 # 运行jar包
 ENTRYPOINT ["sh","-c","java -jar $JAVA_OPTS austin.jar $PARAMS"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
